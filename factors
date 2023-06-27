@@ -4,7 +4,7 @@ import sys
 
 
 def factorize(number):
-    factors = [0, 0]
+    factors = [number, 1]
 
     if number % 2 == 0:
         factors[0] = number // 2
